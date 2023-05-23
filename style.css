@@ -1,0 +1,58 @@
+.general-container {
+    height: 100vh;
+}
+
+.header {
+    background-color: #06131f;
+    padding: 0.5rem;
+    height: 10%;
+}
+
+.header .img-logo {
+    height: 50px;
+    padding-left: 4rem;
+}
+
+.container-cards {
+    background-color: #1d2d3c;
+    height: 90%;
+    width: 100%;
+}
+
+.single-card {
+    width: calc(100% / 3 - 6rem);
+    background-color: rgba(0, 0, 0, 0.4);
+    margin: 1rem 3rem;
+    padding: 0.5rem 0;
+    border-radius: 5px;
+}
+
+.small-text {
+    font-size: 0.8rem;
+}
+
+.img-poster {
+    width: 63%;
+
+}
+
+/* card che appare al click */
+
+.clicked-card {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: #1d2d3c;
+    opacity: 0.9;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
+}
+
+.single-card-clicked {
+    color: white;
+    text-align: center;
+    width: 20rem;
+}
