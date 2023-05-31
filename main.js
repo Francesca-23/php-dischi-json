@@ -23,7 +23,12 @@ createApp({
 
         clickDisc(i) {
             this.indexDisc = this.dischi[i]
+        },
+
+        closeDisc() {
+            this.indexDisc = ''
         }
+
     }
 
 }).mount('#app')

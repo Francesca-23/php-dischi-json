@@ -46,6 +46,7 @@
                     <p class="mb-1 small-text">{{indexDisc.author}}</p>
                     <p class="mb-1">{{indexDisc.year}}</p>
                 </div>
+                <div class="close" @click="closeDisc">X</div>
             </div>
 
         </div>
